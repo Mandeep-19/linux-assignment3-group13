@@ -1,0 +1,58 @@
+[
+  {
+    "name": "ls",
+    "category": "File and Directory",
+    "syntax": "ls [OPTION]... [FILE]...",
+    "description": "Lists files and directories in the current directory.",
+    "example": "ls -la",
+    "dangerLevel": "safe"
+  },
+  {
+    "name": "cd",
+    "category": "Navigation",
+    "syntax": "cd [DIRECTORY]",
+    "description": "Changes the current working directory.",
+    "example": "cd /home/student",
+    "dangerLevel": "safe"
+  },
+  {
+    "name": "pwd",
+    "category": "Navigation",
+    "syntax": "pwd",
+    "description": "Prints the full path of the current working directory.",
+    "example": "pwd",
+    "dangerLevel": "safe"
+  },
+  {
+    "name": "mkdir",
+    "category": "File and Directory",
+    "syntax": "mkdir [OPTION]... DIRECTORY...",
+    "description": "Creates one or more new directories.",
+    "example": "mkdir Projects",
+    "dangerLevel": "safe"
+  },
+  {
+    "name": "rm",
+    "category": "File and Directory",
+    "syntax": "rm [OPTION]... FILE...",
+    "description": "Removes files. Can permanently delete data.",
+    "example": "rm notes.txt",
+    "dangerLevel": "dangerous"
+  },
+  {
+    "name": "rm -r",
+    "category": "File and Directory",
+    "syntax": "rm -r [DIRECTORY]",
+    "description": "Recursively deletes a directory and its contents. Very dangerous if misused.",
+    "example": "rm -r old_backup",
+    "dangerLevel": "very dangerous"
+  },
+  {
+    "name": "chmod",
+    "category": "Permissions",
+    "syntax": "chmod [OPTIONS] MODE FILE",
+    "description": "Changes file or directory permissions.",
+    "example": "chmod 755 script.sh",
+    "dangerLevel": "moderate"
+  }
+]
